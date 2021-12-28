@@ -29,5 +29,6 @@ public class CalculatorTest {
             result--;
         }
         System.out.println(result);
+        System.out.println(result);
     }
 }
