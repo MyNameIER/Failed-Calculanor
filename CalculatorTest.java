@@ -1,11 +1,10 @@
 package Test4;
-
 import java.util.Scanner;
 
 public class CalculatorTest {
     public static void main(String[] args) {
-        int sum = 0;
-        int k = 0;
+        int sum = 1;
+        int k = 1;
         Scanner ad = new Scanner(System.in);
         int n = ad.nextInt();
         int m = ad.nextInt();
@@ -23,7 +22,7 @@ public class CalculatorTest {
         result++;
         while (k < m) {
             k = 0;
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < n; i--) {
                 k = array[i] / (result - 1) + k;
             }
             result--;
@@ -34,3 +33,4 @@ public class CalculatorTest {
 
     }
 }
+//Новая фишечка//
